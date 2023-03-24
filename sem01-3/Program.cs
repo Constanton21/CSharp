@@ -22,10 +22,8 @@ if (a == 1)
 }if (a == 7)
 {
     Console.WriteLine("Воскресенье");
-}if (a > 7) 
+}if (a > 7 || a < 1) 
 {
     Console.WriteLine("Нет такого дня недели");
-}if (a < 1) 
-{
-    Console.WriteLine("Нет такого дня недели");
+    
 }
