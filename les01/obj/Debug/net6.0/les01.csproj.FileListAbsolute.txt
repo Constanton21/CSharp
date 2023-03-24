@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\C#\les01\bin\Debug\net6.0\les01.exe
+C:\Users\ASUS\Desktop\C#\les01\bin\Debug\net6.0\les01.deps.json
+C:\Users\ASUS\Desktop\C#\les01\bin\Debug\net6.0\les01.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#\les01\bin\Debug\net6.0\les01.dll
+C:\Users\ASUS\Desktop\C#\les01\bin\Debug\net6.0\les01.pdb
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.dll
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\refint\les01.dll
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.pdb
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\les01.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\C#\les01\obj\Debug\net6.0\ref\les01.dll
