@@ -1,15 +1,10 @@
-﻿//Console.Clear();
+﻿// команды для удобства
+//Console.Clear();
 //int a = new Random().Next(100, 999);
 //Console.Write("+");
 //Console.Write($"{b} ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-
-//*12 Напишите программу, которая будет принимать на вход два числа и выводить, 
-//вляется ли второе число кратным первому. Если второе число не кратно числу первому,
-//то программа выводит остаток от деления.
-
-// 34, 5 -> не кратно, остаток 4
-// 16, 4  -> кратно
 int a = int.Parse(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 if (a%b == 0)
