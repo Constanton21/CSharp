@@ -9,12 +9,17 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int a = int.Parse(Console.ReadLine());
-
 if (a < 100)
 {
     Console.WriteLine("Третьей цифры нет");
-} else 
+} while (a > 99) 
+{
+if ((a > 99) && (a < 1000)) 
 { 
-    int b = a % 1000;
-
+    int b = a % 10;
+    Console.WriteLine($"Третья цифра числа -> {b}");
+    a = a / 10;
+}else {
+    a = a / 10;
+}
 }
