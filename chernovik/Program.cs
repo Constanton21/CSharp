@@ -30,10 +30,19 @@ int[] GetArrayFromString(string StringArray)
 
 // выводы и вводы
 Console.Clear();
+Console.Write("Введите : ");
 Console.WriteLine($"[{String.Join(", ",  array)}]");
+string[] str = Console.ReadLine().Split(' ');
 int n = int.Parse(Console.ReadLine());
 Console.Write($"{b} ");
+Console.WriteLine(String.Join(" ", array));
 int a = new Random().Next(100, 999); //создание рандомного числа
+using System; // вводим вначале перед двухмерными массивами
+using static System.Console;  
+Write("Введите количество строк массива: "); int rows=int.Parse(ReadLine()); 
+Write("Введите количество столбцов массива: "); int columns=int.Parse(ReadLine()); 
+
+//
 
 
 // перевод в целочисленные 
