@@ -31,5 +31,6 @@ string[] Filter(string[] inputArray)
                 index++;
             }
         }
+    Array.Resize(ref resultArray, index);    
     return resultArray;        
 }
