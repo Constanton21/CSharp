@@ -13,7 +13,16 @@ using static System.Console;
 
 Console.Clear();
 
-string[] inputArray = { "Hello", "2", "world", ":-)" };
+// string[] inputArray = { "Hello", "2", "world", ":-)" }; // В1 - массив задается на старте
+Console.Write("Введите количество строк массива: ");  // В2 - Ввод массива с клавиатуры 17-24 строки
+    int arrayLength = int.Parse(Console.ReadLine());
+    string[] inputArray = new string[arrayLength];
+    for (int i = 0; i < arrayLength; i++)
+    {
+        Console.Write($"Введите строку {i + 1}: ");
+        inputArray[i] = Console.ReadLine();
+    }
+
 string[] resultArray = Filter(inputArray);
 
 Console.WriteLine("Исходный массив: [" + string.Join(", ", inputArray) + "]");
