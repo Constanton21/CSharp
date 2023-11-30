@@ -7,3 +7,14 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+using System;
+using static System.Console;
+
+Console.Clear();
+
+string[] inputArray = { "Hello", "2", "world", ":-)" };
+string[] resultArray = Filter(inputArray);
+
+Console.WriteLine("Исходный массив: [" + string.Join(", ", inputArray) + "]");
+Console.WriteLine("Новый массив: [" + string.Join(", ", resultArray) + "]");

@@ -8,7 +8,7 @@ int CountCifr(int n) {
     int n=0;
     while (a > 10);
     {
-    int n ++;
+    int n++;
     int a = a/10;
     }
 }

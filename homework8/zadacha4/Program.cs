@@ -2,7 +2,7 @@
 using static System.Console;
 
 Clear();
-int[,,] array3 = Get3Array(2, 2, 2, 10, 99);
+int[,,] array3 = Get3Array(2, 2, 2, 10, 17);
 
 // int[,,] array3 = {{{11, 12},{21, 22}},
 // {{31, 32},{41,42}}};
