@@ -18,3 +18,18 @@ string[] resultArray = Filter(inputArray);
 
 Console.WriteLine("Исходный массив: [" + string.Join(", ", inputArray) + "]");
 Console.WriteLine("Новый массив: [" + string.Join(", ", resultArray) + "]");
+
+string[] Filter(string[] inputArray)
+{
+    string[] resultArray = new string[inputArray.Length];
+    int index = 0;
+    foreach (string str in inputArray)
+        {
+            if (str.Length <= 3)
+            {
+                resultArray[index] = str;
+                index++;
+            }
+        }
+    return resultArray;        
+}
